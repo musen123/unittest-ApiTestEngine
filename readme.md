@@ -4,7 +4,11 @@
 
 ​		   ApiTestEngine主要是为接口自动化平台 开发的一个Http接口用例执行的引擎，其实之前开发的接口自动化框架apin也可以作为测试平台的用例执行引擎。但是apin最初设计的初衷是基于json或yaml文件来编写测试用例，里面设计了更多规则。用来进行平台开发反而有些笨重了，也不适合在课程中教学适用，于是在apin的基础写进行了精简和优化，开发了 ApiTestEngine这个更为精简和灵活的用例执行引擎。下面介绍一下ApiTestEngine的具体使用。
 
-​		
+安装命令:
+   ```python
+pip install unittest-ApiTestEngine
+``` 
+    	
 
 ## 一、用例执行函数
 
